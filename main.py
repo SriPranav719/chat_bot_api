@@ -3,6 +3,7 @@ from fastapi.responses import StreamingResponse, JSONResponse
 from pydantic import BaseModel
 from chat_utils import stream_ollama_response
 
+
 app = FastAPI()
 
 chat_history = []
