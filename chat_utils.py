@@ -4,6 +4,7 @@ import json
 
 OLLAMA_MODEL = "qwen:1.8b"
 
+
 SYSTEM_PROMPT = {
     "role": "system",
     "content": (
